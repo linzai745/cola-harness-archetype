@@ -1,0 +1,19 @@
+syntax = "proto3";
+package ${artifactId}.v1;
+
+option java_package = "${package}.client.grpc";
+option java_multiple_files = true;
+
+// 当前 proto 仅作为占位模板。
+// 真实项目中请根据业务替换 service 和 message。
+service DemoService {
+  rpc Ping (PingRequest) returns (PingResponse);
+}
+
+message PingRequest {
+  string message = 1;
+}
+
+message PingResponse {
+  string message = 1;
+}
