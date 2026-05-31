@@ -1,5 +1,5 @@
 syntax = "proto3";
-package ${artifactId}.v1;
+package ${artifactId}.client.v1;
 
 option java_package = "${package}.client.grpc";
 option java_multiple_files = true;
