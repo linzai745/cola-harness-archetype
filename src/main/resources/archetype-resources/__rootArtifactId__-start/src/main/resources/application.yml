@@ -5,17 +5,13 @@
 server:
   port: 18081
 
-spring:
-  application:
-    name: ${artifactId}
-
 grpc:
   server:
     port: 19090
 
 spring:
   application:
-    name: lab-gift
+    name: ${artifactId}
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/gift_lab?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai

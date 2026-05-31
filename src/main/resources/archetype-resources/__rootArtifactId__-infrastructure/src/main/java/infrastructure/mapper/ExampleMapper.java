@@ -8,6 +8,6 @@ import org.apache.ibatis.annotations.Mapper;
 import ${package}.infrastructure.dataobject.ExampleDO;
 
 @Mapper
-public interface ExampleMapper implements BaseMapper<ExampleDO> {
+public interface ExampleMapper extends BaseMapper<ExampleDO> {
     
 }

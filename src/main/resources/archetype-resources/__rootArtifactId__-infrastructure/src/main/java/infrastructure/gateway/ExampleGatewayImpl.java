@@ -4,6 +4,7 @@
 package ${package}.infrastructure.gateway;
 
 import ${package}.domain.gateway.ExampleGateway;
+import ${package}.domain.model.Example;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

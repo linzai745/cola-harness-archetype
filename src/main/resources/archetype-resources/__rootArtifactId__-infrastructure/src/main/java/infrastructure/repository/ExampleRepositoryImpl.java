@@ -4,7 +4,7 @@
 package ${package}.infrastructure.repository;
 
 import lombok.RequiredArgsConstructor;
-import ${package}.domain.repository.ExampleRepository;
+import ${package}.domain.repository.ExampleRepository;;
 import org.springframework.stereotype.Repository;
 
 @Repository

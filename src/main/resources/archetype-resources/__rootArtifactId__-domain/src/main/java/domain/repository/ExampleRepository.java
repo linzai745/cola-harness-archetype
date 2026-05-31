@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.domain.gateway;
+package ${package}.domain.repository;
 
 import ${package}.domain.model.Example;
 
